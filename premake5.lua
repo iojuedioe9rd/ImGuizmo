@@ -18,6 +18,10 @@ project "ImGuizmo"
     	"ImSequencer.h",
     	"ImSequencer.cpp",
 	}
+	
+	includedirs {
+		"%{IncludeDir.imgui}"
+	}
 
     
 	filter "system:windows"
